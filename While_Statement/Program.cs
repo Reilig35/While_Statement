@@ -48,7 +48,25 @@ namespace While_Statement
                 }
              }
             while (Guess == false);
+            Console.WriteLine("\n\nPress ENTER for next programme");
             Console.Read();
+
+           
+            //Using While loop to find the ODD and EVEN numbers
+            int i = 1;
+
+            while(i <= 50)
+            {
+                if(i % 2 == 1)
+                {
+                    Console.WriteLine($"{i} is an ODD number");
+                }
+                else 
+                {
+                    Console.WriteLine($"{i} is an EVEN number");
+                }
+                i++;
+            }
         }
     }
 }
